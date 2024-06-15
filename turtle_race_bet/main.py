@@ -32,9 +32,9 @@ screen = Screen()
 
 is_race_on = False
 y_positions = [-70, -40, -10, 20, 50, 80]
-colors = ['red', 'orange', 'yellow', 'green', 'blue', 'purple']
+colors = ['red', 'orange', 'yellow', 'green', 'blue', 'pink']
 screen.setup(width=1000, height=400)
-user_bet = screen.textinput(title='Make your bet', prompt='Which turtle will win the race? Enter a color(red, orange, yellow, green, blue, purple): ')
+user_bet = screen.textinput(title='Make your bet', prompt='Which turtle will win the race? Enter a color(red, orange, yellow, green, blue, pink): ')
 all_turtle = []
 
 for turtle_index in range(0, 6):
